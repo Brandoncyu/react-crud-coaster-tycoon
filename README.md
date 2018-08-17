@@ -20,16 +20,16 @@ This project assumes you have the [related API](https://github.com/bwreid/react-
 > These are our CRUD routes.
 
 * Describe [these methods](https://github.com/bwreid/react-crud-coaster-tycoon/blob/master/src/App.js#L16-L27) inside of the `App.js` file. When will each method be called?
-> ComponentsWillreceiveProps
+> Every time you select something.
 
 * Why must we pass the `selectPark` function [from App.js to the ParksList.js](https://github.com/bwreid/react-crud-coaster-tycoon/blob/master/src/components/ParksList.js) file?
-> Some of the CRUD routes require id to access the info in the backend.
+> Because we want to set state in App.js. Some of the CRUD routes require id to access the info in the backend.
 
 * What is [this line](https://github.com/bwreid/react-crud-coaster-tycoon/blob/master/src/components/ParksList.js#L5) doing inside of the `ParksList.js` file?
-> It lets you know which one is active.
+> It lets you know which one is active and highlights it.
 
 * Take a look at how state is declared [in the Park.js file](https://github.com/bwreid/react-crud-coaster-tycoon/blob/master/src/components/Park.js#L6-L8). Why do we need to specify `rides` as an empty array?
-> Because this is what will be updated. 
+> Because this is what will be updated. We want to set up the structure of state for what it's going to have later.
 
 * What is [this line](https://github.com/bwreid/react-crud-coaster-tycoon/blob/master/src/components/Park.js#L23) doing in the `Park.js` file?
 > To guide the user to the next step.
